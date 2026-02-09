@@ -16,11 +16,11 @@ public class Course {
         return courseName;
     }
 
-    public int getDuration() {
+    public int getCourseDuration() {
         return duration;
     }
 
-    public boolean isActive() {
+    public boolean isCourseActive() {
         return active;
     }
 
@@ -29,11 +29,11 @@ public class Course {
         this.courseName = courseName;
     }
 
-    public void setDuration(int duration) {
+    public void setCourseDuration(int duration) {
         this.duration = duration;
     }
 
-    public void setActive(boolean active) {
+    public void setCourseActive(boolean active) {
         this.active = active;
     }
 
