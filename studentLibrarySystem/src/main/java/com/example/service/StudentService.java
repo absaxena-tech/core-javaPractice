@@ -1,6 +1,7 @@
-package service;
+package com.example.service;
 
-import model.Student;
+import com.example.model.Student;
+
 import java.util.ArrayList;
 import java.util.List;
 

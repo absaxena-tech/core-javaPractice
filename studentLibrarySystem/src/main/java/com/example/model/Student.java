@@ -1,4 +1,5 @@
-package model;
+package com.example.model;
+
 
 public class Student {
     private int rollNo;

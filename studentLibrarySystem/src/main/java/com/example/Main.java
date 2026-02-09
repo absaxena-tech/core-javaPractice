@@ -1,8 +1,10 @@
 package com.example;
 
-public class Main {
-    static void main() {
-        System.out.println("Hello");
+import com.example.controller.StudentController;
 
+public class Main {
+    public static void main(String[] args) {
+        StudentController controller = new StudentController();
+        controller.start();
     }
 }
